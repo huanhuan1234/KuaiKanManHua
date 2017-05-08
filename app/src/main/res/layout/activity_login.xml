@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="@color/tab_login"
+                android:id="@+id/activity_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/login_back"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:clickable="true"
+                android:background="@drawable/ic_account_back_pressed"/>
+
+        </LinearLayout>
+        />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:id="@+id/girlandboy"
+        android:layout_marginTop="150dp"
+
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+
+    <EditText
+
+        android:textColorHint="@color/gray"
+
+        android:inputType="number"
+        android:hint="支持中国大陆"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_deit"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/phone_login_selecter"
+
+        />
+
+    <EditText
+        android:textColorHint="@color/gray"
+
+        android:hint="8-30位数字或英文"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/pwd_login_selecter"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+
+        />
+    <View
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#ff00ff"
+        />
+    <Button
+        android:layout_marginTop="350dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/login_btn"
+        android:layout_centerHorizontal="true"
+        android:text="登录"
+        android:textColor="@color/tab_login"
+        android:background="@drawable/login_backgroud_shape"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_login_qq"
+
+            />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_login_weibo"
+
+            />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_login_weixin_pressed"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>
